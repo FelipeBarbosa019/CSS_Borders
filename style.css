@@ -1,0 +1,95 @@
+body {
+    background-image: linear-gradient(to right, rgb(12, 53, 6),  rgb(64, 167, 95), rgb(12, 53, 6));
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-inline-start: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(177, 247, 214);
+   
+}
+
+div {
+    font-size: 20px;
+    width: 250px;
+    height: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    border-width: 7px;
+    border-color: black;
+    line-height: 48px;
+    margin: auto;
+}
+
+.dotted {
+    border-style: dotted;
+    border-radius: 50%;
+    border-width: medium;
+    border-color: orange
+}
+
+.dashed {
+    border-style: dashed;
+    border-width: medium;
+    border-color: blue;
+}   
+
+.solid {
+    border-style: solid;
+    border-width: thin;
+}
+
+.double {
+    border-color: aquamarine;
+    border-style: double;
+    border-width: thick;
+}
+
+.groove {
+    border-style: groove;
+    border-color: red;
+    border-radius: 7px;
+}
+
+.ridge {
+    border-style: ridge;
+    border-color: brown;
+}
+
+.inset {
+    border-style: inset;
+    border-color: rgb(33, 180, 77);
+}
+
+.outset {
+    border-style: outset;
+    border-color: rgb(33, 180, 77);
+}
+
+.turing {
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+nav {
+  
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    gap: 13px;
+   
+}
+
+.cabeçalho {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
